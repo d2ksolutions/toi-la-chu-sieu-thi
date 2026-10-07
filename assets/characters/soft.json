@@ -1,0 +1,62 @@
+{
+ "CH_Cust_Elder": {
+  "accent": null,
+  "bottom": "#2B2A33",
+  "top": "#B7A3D6"
+ },
+ "CH_Cust_Grandpa": {
+  "accent": null,
+  "bottom": "#6B4F3A",
+  "top": "#A9C8E8"
+ },
+ "CH_Cust_Kid": {
+  "accent": null,
+  "bottom": "#3F7FD9",
+  "top": "#FFD54A"
+ },
+ "CH_Cust_Mom": {
+  "accent": null,
+  "bottom": "#2E3E6B",
+  "top": "#F2A7B9"
+ },
+ "CH_Cust_NonLa": {
+  "accent": null,
+  "bottom": null,
+  "top": "#8CC6E6"
+ },
+ "CH_Cust_Office": {
+  "accent": null,
+  "bottom": "#27324D",
+  "top": "#F4F5F2"
+ },
+ "CH_Cust_Student": {
+  "accent": null,
+  "bottom": "#1F2A44",
+  "top": null
+ },
+ "CH_Cust_Teen": {
+  "accent": null,
+  "bottom": "#6E8FBF",
+  "top": "#2FA39A"
+ },
+ "CH_Staff_Ha": {
+  "accent": "#1E6B3A",
+  "bottom": "#C2A679",
+  "top": "#2E9E4F"
+ },
+ "CH_Staff_Lan": {
+  "accent": "#1E6B3A",
+  "bottom": "#2A2C30",
+  "top": "#2E9E4F"
+ },
+ "CH_Staff_Long": {
+  "accent": "#1E6B3A",
+  "bottom": "#2A2C30",
+  "top": "#2E9E4F"
+ },
+ "CH_Staff_Minh": {
+  "accent": "#1E6B3A",
+  "bottom": "#2A2C30",
+  "top": "#2E9E4F"
+ }
+}

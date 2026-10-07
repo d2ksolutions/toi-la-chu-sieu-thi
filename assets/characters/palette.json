@@ -1,0 +1,837 @@
+{
+ "size": 64,
+ "grid": 16,
+ "cell": 4,
+ "note": "rect = [x, y, w, h] in pixels of the colour texture embedded in the GLBs, origin top-left",
+ "slots": [
+  "ch_skin",
+  "ch_hair",
+  "ch_top",
+  "ch_bottom",
+  "ch_shoes",
+  "ch_accent",
+  "ch_accent2"
+ ],
+ "swatches": {
+  "white": {
+   "hex": "#F5F4F0",
+   "rect": [
+    0,
+    60,
+    4,
+    4
+   ]
+  },
+  "shelf": {
+   "hex": "#E4E8ED",
+   "rect": [
+    4,
+    60,
+    4,
+    4
+   ]
+  },
+  "shelf_dark": {
+   "hex": "#8D99A6",
+   "rect": [
+    8,
+    60,
+    4,
+    4
+   ]
+  },
+  "green": {
+   "hex": "#2E9E4F",
+   "rect": [
+    12,
+    60,
+    4,
+    4
+   ]
+  },
+  "green_dark": {
+   "hex": "#1D7438",
+   "rect": [
+    16,
+    60,
+    4,
+    4
+   ]
+  },
+  "red": {
+   "hex": "#E53935",
+   "rect": [
+    20,
+    60,
+    4,
+    4
+   ]
+  },
+  "red_dark": {
+   "hex": "#B71C1C",
+   "rect": [
+    24,
+    60,
+    4,
+    4
+   ]
+  },
+  "yellow": {
+   "hex": "#FBC02D",
+   "rect": [
+    28,
+    60,
+    4,
+    4
+   ]
+  },
+  "orange": {
+   "hex": "#FB8C00",
+   "rect": [
+    32,
+    60,
+    4,
+    4
+   ]
+  },
+  "blue": {
+   "hex": "#1E88E5",
+   "rect": [
+    36,
+    60,
+    4,
+    4
+   ]
+  },
+  "navy": {
+   "hex": "#1A3E7A",
+   "rect": [
+    40,
+    60,
+    4,
+    4
+   ]
+  },
+  "sky": {
+   "hex": "#4FC3F7",
+   "rect": [
+    44,
+    60,
+    4,
+    4
+   ]
+  },
+  "pink": {
+   "hex": "#EC407A",
+   "rect": [
+    48,
+    60,
+    4,
+    4
+   ]
+  },
+  "purple": {
+   "hex": "#8E24AA",
+   "rect": [
+    52,
+    60,
+    4,
+    4
+   ]
+  },
+  "brown": {
+   "hex": "#6D4C41",
+   "rect": [
+    56,
+    60,
+    4,
+    4
+   ]
+  },
+  "cream": {
+   "hex": "#FFF1D0",
+   "rect": [
+    60,
+    60,
+    4,
+    4
+   ]
+  },
+  "teal": {
+   "hex": "#00A99D",
+   "rect": [
+    0,
+    56,
+    4,
+    4
+   ]
+  },
+  "chrome": {
+   "hex": "#CDD3D9",
+   "rect": [
+    4,
+    56,
+    4,
+    4
+   ]
+  },
+  "silver": {
+   "hex": "#B4BAC0",
+   "rect": [
+    8,
+    56,
+    4,
+    4
+   ]
+  },
+  "black": {
+   "hex": "#2A2C30",
+   "rect": [
+    12,
+    56,
+    4,
+    4
+   ]
+  },
+  "rubber": {
+   "hex": "#1C1C1E",
+   "rect": [
+    16,
+    56,
+    4,
+    4
+   ]
+  },
+  "wood": {
+   "hex": "#D29B5E",
+   "rect": [
+    20,
+    56,
+    4,
+    4
+   ]
+  },
+  "wood_dark": {
+   "hex": "#9A683C",
+   "rect": [
+    24,
+    56,
+    4,
+    4
+   ]
+  },
+  "cardboard": {
+   "hex": "#C89D6B",
+   "rect": [
+    28,
+    56,
+    4,
+    4
+   ]
+  },
+  "cardboard_dk": {
+   "hex": "#A97F52",
+   "rect": [
+    32,
+    56,
+    4,
+    4
+   ]
+  },
+  "tape": {
+   "hex": "#E8CFA0",
+   "rect": [
+    36,
+    56,
+    4,
+    4
+   ]
+  },
+  "glass": {
+   "hex": "#CFEFFF",
+   "rect": [
+    40,
+    56,
+    4,
+    4
+   ]
+  },
+  "screen": {
+   "hex": "#41B0FF",
+   "rect": [
+    44,
+    56,
+    4,
+    4
+   ]
+  },
+  "sign_blue": {
+   "hex": "#1E88E5",
+   "rect": [
+    48,
+    56,
+    4,
+    4
+   ]
+  },
+  "light": {
+   "hex": "#FFFFFF",
+   "rect": [
+    52,
+    56,
+    4,
+    4
+   ]
+  },
+  "fridge_in": {
+   "hex": "#DDE9F2",
+   "rect": [
+    56,
+    56,
+    4,
+    4
+   ]
+  },
+  "leaf": {
+   "hex": "#43A047",
+   "rect": [
+    60,
+    56,
+    4,
+    4
+   ]
+  },
+  "leaf_dark": {
+   "hex": "#2E7D32",
+   "rect": [
+    0,
+    52,
+    4,
+    4
+   ]
+  },
+  "leaf_light": {
+   "hex": "#8BC34A",
+   "rect": [
+    4,
+    52,
+    4,
+    4
+   ]
+  },
+  "soil": {
+   "hex": "#7A5240",
+   "rect": [
+    8,
+    52,
+    4,
+    4
+   ]
+  },
+  "pot": {
+   "hex": "#ECEAE4",
+   "rect": [
+    12,
+    52,
+    4,
+    4
+   ]
+  },
+  "terracotta": {
+   "hex": "#C8693A",
+   "rect": [
+    16,
+    52,
+    4,
+    4
+   ]
+  },
+  "tomato": {
+   "hex": "#E8382C",
+   "rect": [
+    20,
+    52,
+    4,
+    4
+   ]
+  },
+  "apple": {
+   "hex": "#C62834",
+   "rect": [
+    24,
+    52,
+    4,
+    4
+   ]
+  },
+  "orange_fr": {
+   "hex": "#FF9A1F",
+   "rect": [
+    28,
+    52,
+    4,
+    4
+   ]
+  },
+  "banana": {
+   "hex": "#FFD83B",
+   "rect": [
+    32,
+    52,
+    4,
+    4
+   ]
+  },
+  "lettuce": {
+   "hex": "#7CC242",
+   "rect": [
+    36,
+    52,
+    4,
+    4
+   ]
+  },
+  "cabbage": {
+   "hex": "#B5D98A",
+   "rect": [
+    40,
+    52,
+    4,
+    4
+   ]
+  },
+  "eggplant": {
+   "hex": "#5B2C83",
+   "rect": [
+    44,
+    52,
+    4,
+    4
+   ]
+  },
+  "carrot": {
+   "hex": "#F57C1F",
+   "rect": [
+    48,
+    52,
+    4,
+    4
+   ]
+  },
+  "dragon": {
+   "hex": "#E0307A",
+   "rect": [
+    52,
+    52,
+    4,
+    4
+   ]
+  },
+  "mango": {
+   "hex": "#FFC233",
+   "rect": [
+    56,
+    52,
+    4,
+    4
+   ]
+  },
+  "rack_blue": {
+   "hex": "#2F5DA8",
+   "rect": [
+    60,
+    52,
+    4,
+    4
+   ]
+  },
+  "rack_orange": {
+   "hex": "#F57C00",
+   "rect": [
+    0,
+    48,
+    4,
+    4
+   ]
+  },
+  "floor": {
+   "hex": "#EDE8E0",
+   "rect": [
+    4,
+    48,
+    4,
+    4
+   ]
+  },
+  "mint": {
+   "hex": "#86DCC0",
+   "rect": [
+    8,
+    48,
+    4,
+    4
+   ]
+  },
+  "choco": {
+   "hex": "#7B4A2E",
+   "rect": [
+    12,
+    48,
+    4,
+    4
+   ]
+  },
+  "vanilla": {
+   "hex": "#FFF0BF",
+   "rect": [
+    16,
+    48,
+    4,
+    4
+   ]
+  },
+  "strawberry": {
+   "hex": "#F79AB5",
+   "rect": [
+    20,
+    48,
+    4,
+    4
+   ]
+  },
+  "paper": {
+   "hex": "#FAFAF7",
+   "rect": [
+    24,
+    48,
+    4,
+    4
+   ]
+  },
+  "win_dark": {
+   "hex": "#2B4456",
+   "rect": [
+    28,
+    48,
+    4,
+    4
+   ]
+  },
+  "headlight": {
+   "hex": "#FFF4CC",
+   "rect": [
+    32,
+    48,
+    4,
+    4
+   ]
+  },
+  "taillight": {
+   "hex": "#FF3B30",
+   "rect": [
+    36,
+    48,
+    4,
+    4
+   ]
+  },
+  "skin_light": {
+   "hex": "#F8D7BC",
+   "rect": [
+    40,
+    48,
+    4,
+    4
+   ]
+  },
+  "skin_mid": {
+   "hex": "#EAB48C",
+   "rect": [
+    44,
+    48,
+    4,
+    4
+   ]
+  },
+  "skin_tan": {
+   "hex": "#C98D62",
+   "rect": [
+    48,
+    48,
+    4,
+    4
+   ]
+  },
+  "hair_black": {
+   "hex": "#2A2930",
+   "rect": [
+    52,
+    48,
+    4,
+    4
+   ]
+  },
+  "hair_brown": {
+   "hex": "#5E3B27",
+   "rect": [
+    56,
+    48,
+    4,
+    4
+   ]
+  },
+  "hair_grey": {
+   "hex": "#CBCDD2",
+   "rect": [
+    60,
+    48,
+    4,
+    4
+   ]
+  },
+  "eye": {
+   "hex": "#1D1D24",
+   "rect": [
+    0,
+    44,
+    4,
+    4
+   ]
+  },
+  "blush": {
+   "hex": "#FF9DAA",
+   "rect": [
+    4,
+    44,
+    4,
+    4
+   ]
+  },
+  "mouth": {
+   "hex": "#B8414F",
+   "rect": [
+    8,
+    44,
+    4,
+    4
+   ]
+  },
+  "apron": {
+   "hex": "#2F3A35",
+   "rect": [
+    12,
+    44,
+    4,
+    4
+   ]
+  },
+  "khaki": {
+   "hex": "#C9B185",
+   "rect": [
+    16,
+    44,
+    4,
+    4
+   ]
+  },
+  "denim": {
+   "hex": "#3F5F8F",
+   "rect": [
+    20,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_skin": {
+   "hex": "#F8D7BC",
+   "rect": [
+    24,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_hair": {
+   "hex": "#2A2930",
+   "rect": [
+    28,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_top": {
+   "hex": "#2E9E4F",
+   "rect": [
+    32,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_bottom": {
+   "hex": "#2A2C30",
+   "rect": [
+    36,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_shoes": {
+   "hex": "#2A2C30",
+   "rect": [
+    40,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_accent": {
+   "hex": "#E53935",
+   "rect": [
+    44,
+    44,
+    4,
+    4
+   ]
+  },
+  "ch_accent2": {
+   "hex": "#FB8C00",
+   "rect": [
+    48,
+    44,
+    4,
+    4
+   ]
+  },
+  "iris": {
+   "hex": "#6B4428",
+   "rect": [
+    52,
+    44,
+    4,
+    4
+   ]
+  },
+  "mouth_in": {
+   "hex": "#7A2430",
+   "rect": [
+    56,
+    44,
+    4,
+    4
+   ]
+  },
+  "straw": {
+   "hex": "#E8CC86",
+   "rect": [
+    60,
+    44,
+    4,
+    4
+   ]
+  },
+  "tongue": {
+   "hex": "#F07C84",
+   "rect": [
+    0,
+    40,
+    4,
+    4
+   ]
+  }
+ },
+ "characters": {
+  "CH_Staff_Lan": {
+   "ch_skin": "#F8D7BC",
+   "ch_hair": "#2A2930",
+   "ch_top": "#2E9E4F",
+   "ch_bottom": "#2A2C30",
+   "ch_shoes": "#2A2C30"
+  },
+  "CH_Staff_Minh": {
+   "ch_skin": "#EAB48C",
+   "ch_hair": "#2A2930",
+   "ch_top": "#2E9E4F",
+   "ch_bottom": "#2A2C30",
+   "ch_shoes": "#2A2C30",
+   "ch_accent": "#2E9E4F"
+  },
+  "CH_Staff_Ha": {
+   "ch_skin": "#F8D7BC",
+   "ch_hair": "#5E3B27",
+   "ch_top": "#2E9E4F",
+   "ch_bottom": "#C9B185",
+   "ch_shoes": "#6D4C41"
+  },
+  "CH_Staff_Long": {
+   "ch_skin": "#C98D62",
+   "ch_hair": "#2A2930",
+   "ch_top": "#2E9E4F",
+   "ch_bottom": "#2A2C30",
+   "ch_shoes": "#2A2C30"
+  },
+  "CH_Cust_Mom": {
+   "ch_skin": "#F8D7BC",
+   "ch_hair": "#5E3B27",
+   "ch_top": "#EC407A",
+   "ch_bottom": "#1A3E7A",
+   "ch_shoes": "#F5F4F0",
+   "ch_accent2": "#FFF1D0"
+  },
+  "CH_Cust_Kid": {
+   "ch_skin": "#EAB48C",
+   "ch_hair": "#2A2930",
+   "ch_top": "#FBC02D",
+   "ch_bottom": "#1E88E5",
+   "ch_shoes": "#E53935"
+  },
+  "CH_Cust_Office": {
+   "ch_skin": "#F8D7BC",
+   "ch_hair": "#2A2930",
+   "ch_top": "#F5F4F0",
+   "ch_bottom": "#1A3E7A",
+   "ch_shoes": "#2A2C30",
+   "ch_accent2": "#1E88E5"
+  },
+  "CH_Cust_Elder": {
+   "ch_skin": "#F8D7BC",
+   "ch_hair": "#CBCDD2",
+   "ch_top": "#8E24AA",
+   "ch_bottom": "#C9B185",
+   "ch_shoes": "#6D4C41"
+  },
+  "CH_Cust_Student": {
+   "ch_skin": "#C98D62",
+   "ch_hair": "#2A2930",
+   "ch_top": "#4FC3F7",
+   "ch_bottom": "#3F5F8F",
+   "ch_shoes": "#F5F4F0",
+   "ch_accent": "#E53935",
+   "ch_accent2": "#FB8C00"
+  },
+  "CH_Cust_Teen": {
+   "ch_skin": "#F8D7BC",
+   "ch_hair": "#2A2930",
+   "ch_top": "#00A99D",
+   "ch_bottom": "#3F5F8F",
+   "ch_shoes": "#F5F4F0"
+  },
+  "CH_Cust_Grandpa": {
+   "ch_skin": "#EAB48C",
+   "ch_hair": "#CBCDD2",
+   "ch_top": "#C9B185",
+   "ch_bottom": "#6D4C41",
+   "ch_shoes": "#2A2C30"
+  },
+  "CH_Cust_NonLa": {
+   "ch_skin": "#C98D62",
+   "ch_hair": "#2A2930",
+   "ch_top": "#86DCC0",
+   "ch_bottom": "#2A2C30",
+   "ch_shoes": "#6D4C41"
+  }
+ }
+}
