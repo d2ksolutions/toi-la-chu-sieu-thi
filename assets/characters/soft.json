@@ -57,6 +57,7 @@
  "CH_Staff_Minh": {
   "accent": "#1E6B3A",
   "bottom": "#2A2C30",
+  "restSmile": 0.4,
   "top": "#2E9E4F"
  }
 }
