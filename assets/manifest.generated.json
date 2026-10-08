@@ -3584,6 +3584,69 @@
     ]
    }
   },
+  "lion_red": {
+   "file": "models/env.glb",
+   "node": "EN_Lion_Red",
+   "triangles": 1972,
+   "bounds": null
+  },
+  "lion_yellow": {
+   "file": "models/env.glb",
+   "node": "EN_Lion_Yellow",
+   "triangles": 1972,
+   "bounds": null
+  },
+  "drum": {
+   "file": "models/env.glb",
+   "node": "EN_Drum",
+   "triangles": 616,
+   "bounds": {
+    "min": [
+     -0.535,
+     -0.005,
+     -0.425
+    ],
+    "max": [
+     0.535,
+     1.01,
+     0.425
+    ]
+   }
+  },
+  "bicycle_teal": {
+   "file": "models/env.glb",
+   "node": "EN_Bicycle_Teal",
+   "triangles": 524,
+   "bounds": {
+    "min": [
+     -0.26,
+     -0.008,
+     -0.868
+    ],
+    "max": [
+     0.26,
+     1.07,
+     0.868
+    ]
+   }
+  },
+  "bicycle_pink": {
+   "file": "models/env.glb",
+   "node": "EN_Bicycle_Pink",
+   "triangles": 524,
+   "bounds": {
+    "min": [
+     -0.26,
+     -0.008,
+     -0.868
+    ],
+    "max": [
+     0.26,
+     1.07,
+     0.868
+    ]
+   }
+  },
   "lamp": {
    "file": "models/env.glb",
    "node": "EN_Lamp",

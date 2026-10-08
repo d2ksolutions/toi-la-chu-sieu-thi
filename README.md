@@ -1,4 +1,4 @@
-# Tôi Là Chủ Siêu Thị — bản web 0.2.0
+# Tôi Là Chủ Siêu Thị — bản web 0.3.0
 
 Game quản lý siêu thị 3D: xây kệ, nhập hàng, đặt giá, thuê nhân viên, đón khách và phát triển cửa hàng qua 6 cấp.
 
